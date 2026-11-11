@@ -59,76 +59,42 @@ small{
 
 <h1>OutfitAI</h1>
 
-<small>Privacy Policy — Last Updated: July 2026</small>
+<small>Privacy Policy — Last updated 11 November 2026</small>
 
 <h2>Overview</h2>
+<p>Pocket Wardrobe: OutfitAI stores your wardrobe and creates outfit suggestions. This policy explains the information used by the app and the services that process it.</p>
 
-<p>
-OutfitAI respects your privacy and is committed to protecting your personal information.
-This Privacy Policy explains what information we collect, how we use it, and how it is protected.
-</p>
+<h2>Account and wardrobe</h2>
+<p>Sign in with Apple connects your Firebase account identifier to your wardrobe. Accounts created by older versions may have started as anonymous accounts. Firebase Authentication processes the identifiers needed to authenticate your account.</p>
+<p>Garment photos, clothing attributes, occasion tags, saved outfits, ratings and saved style notes are stored in Google Firebase under your account. We use this information to show and synchronize your wardrobe and to personalize outfit suggestions. Some preferences, such as language and theme, are stored on your device.</p>
 
-<h2>Information We Collect</h2>
+<h2>Weather and location</h2>
+<p>If you allow location access in iOS, the app sends your location to our Firebase backend and OpenWeather to obtain local weather. This can include precise coordinates when you allow precise location. Weather request logs can contain the coordinates and the device’s IP address. You can change or revoke location permission in iOS Settings. Weather-based suggestions depend on location access.</p>
 
+<h2>AI style notes</h2>
+<p>When you request an AI style note, the app sends text describing the outfit’s colors and patterns, a summary of style preferences, language and weather conditions through our backend to OpenAI. Generated notes are saved with your outfit. Wardrobe photos are stored in Firebase, while style-note requests use text attributes.</p>
+<p>Version 1.0.7 asks you to confirm this sharing before requesting a style note. You can cancel that request. Earlier versions can also include the weather city in the text sent to OpenAI. OpenAI processes these requests under its API data policies.</p>
+
+<h2>Premium and purchases</h2>
+<p>Apple processes Premium Wardrobe purchases and code redemption. The app uses StoreKit purchase and entitlement information to enable and restore Premium access. Where server-side limits apply, a signed purchase proof can be checked by our backend to verify Premium. Apple handles billing and its own purchase records.</p>
+
+<h2>Analytics, diagnostics and security</h2>
+<p>Firebase and Google Analytics can process app-instance or device identifiers, approximate location derived from IP addresses, app interactions, purchase events and technical diagnostics to measure usage and maintain the app. Firebase App Check processes Apple App Attest material to help verify requests. Our backend uses account identifiers, network information and request records to authenticate access, limit abuse and maintain service availability.</p>
+
+<h2>Retention and deletion</h2>
+<p>Your active wardrobe photos, garments and saved outfit history remain in Firebase until you delete them or delete your wardrobe account. In the app, open Settings and choose Delete account, then complete Apple confirmation. This flow removes the active wardrobe data and Firebase account. If deletion is interrupted, retry or contact support so the result can be checked.</p>
+<p>Google Cloud request logs currently have a 30-day retention setting. Deleted Storage photos can remain recoverable under the bucket’s seven-day soft-delete policy. Security and rate-limit records can remain after account deletion for abuse prevention. Third-party services and Apple apply their own retention policies to information they process. Deleting a wardrobe account does not refund an Apple purchase.</p>
+<p>You can contact the address below to request access, correction or deletion of account data, or for help with an older anonymous account.</p>
+
+<h2>Service providers</h2>
+<p>Our app uses Google Firebase and Google Analytics for authentication, storage, diagnostics, usage analytics and security, OpenWeather for weather, OpenAI for requested style notes, and Apple for sign-in, app attestation and purchases. Their privacy and data-use information is available below.</p>
 <ul>
-
-<li>Anonymous Firebase user identifier</li>
-
-<li>Wardrobe items uploaded by the user</li>
-
-<li>Generated outfit history</li>
-
-<li>User preferences</li>
-
-<li>Approximate location (only for weather recommendations)</li>
-
+<li><a href="https://firebase.google.com/support/privacy">Google Firebase privacy and security</a></li>
+<li><a href="https://policies.google.com/privacy">Google privacy policy</a></li>
+<li><a href="https://platform.openai.com/docs/guides/your-data">OpenAI API data controls</a></li>
+<li><a href="https://openweather.co.uk/privacy-policy">OpenWeather privacy policy</a></li>
+<li><a href="https://www.apple.com/legal/privacy/">Apple privacy policy</a></li>
 </ul>
-
-<h2>How We Use Your Information</h2>
-
-<ul>
-
-<li>Generate AI outfit recommendations</li>
-
-<li>Store your wardrobe securely</li>
-
-<li>Provide weather-based outfit suggestions</li>
-
-<li>Improve your overall experience</li>
-
-</ul>
-
-<h2>Third-Party Services</h2>
-
-<ul>
-
-<li>Google Firebase</li>
-
-<li>OpenAI</li>
-
-<li>OpenWeather</li>
-
-</ul>
-
-<p>
-These services may process information according to their own privacy policies.
-</p>
-
-<h2>Location</h2>
-
-<p>
-
-Your location is requested only to provide weather-aware outfit recommendations.
-
-</p>
-
-<h2>Data Security</h2>
-
-<p>
-
-Your information is stored securely using Firebase services.
-
-</p>
 
 <h2>Contact</h2>
 
